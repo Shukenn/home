@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(11, 4, 55);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#top{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    height:10vw;
+}
+
+#name{
+    font-family: monospace;
+    font-size: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0;
+    padding-left: 5vw;
+    display: inline-block;
+}
+
+#visit > ul{
+    font-size: 1.5vw;
+    line-height: 0.5vw;
+}
+
+#visit > h1{
+    font-size: 2.5vw;
+    line-height: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+#middle{
+    border-top:solid;
+    border-color: white;
+    align-items: center;
+    text-align: center;
+    height:70vh;
+}
+
+#bottom{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-top:solid;
+    border-color:rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#bottom > a{
+    padding-left: 3vw;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
